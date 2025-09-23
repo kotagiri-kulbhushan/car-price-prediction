@@ -25,6 +25,7 @@ Preprocessing pipeline with StandardScaler and OneHotEncoder
 Deployed on Render with Gunicorn WSGI server
 
 
+
 Backend & ML :
 
 Framework: Flask
@@ -33,14 +34,17 @@ Data Processing: pandas, numpy
 Model Persistence: joblib
 WSGI Server: Gunicorn
 
+
 Frontend :
 
 HTML5 with responsive design
 CSS3 for styling
 
+
 Deployment :
 
 Platform: Render
+
 
 Usage :
 
@@ -58,10 +62,12 @@ Click "Predict Price" to get the estimated selling price
 
 Model Details
 
+
 Algorithm :
 
 Random Forest Regressor with optimized hyperparameters
 R² Score: ~0.85 (on test data)
+
 
 Preprocessing :
 
