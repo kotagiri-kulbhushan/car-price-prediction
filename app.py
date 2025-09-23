@@ -6,7 +6,7 @@ import os
 app = Flask(__name__) 
  
 "# Load trained model with relative path" 
-model_path = os.path.join(os.path.dirname(__file__), 'models', 'best_model.joblib') 
+model_path = os.path.join(os.path.dirname(__file__), 'models', 'best_model_resaved.joblib')
 model = load(model_path) 
  
 @app.route("/") 
