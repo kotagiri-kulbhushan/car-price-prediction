@@ -24,6 +24,7 @@ Model Persistence: joblib
 WSGI Server: Gunicorn
 Frontend
 HTML5 with responsive design
+CSS3 for styling
 
 Deployment
 Platform: Render
@@ -52,5 +53,4 @@ Numerical Features: StandardScaler (Year, Present_Price, Kms_Driven)
 Categorical Features: OneHotEncoder (Fuel_Type, Seller_Type, Transmission, Owner)
 Feature Engineering: Pipeline-based preprocessing
 
-CSS3 for styling
 
