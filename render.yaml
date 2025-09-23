@@ -3,5 +3,8 @@ services:
     name: car-price-prediction 
     env: python 
     plan: free 
+    envVars: 
+      - key: PYTHON_VERSION 
+        value: 3.10.12 
     buildCommand: pip install -r requirements.txt 
     startCommand: gunicorn app:app 
