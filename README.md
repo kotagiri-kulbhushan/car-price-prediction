@@ -4,13 +4,13 @@ Car Price Prediction 🚗
 Live Demo : https://car-price-prediction-p614.onrender.com/
 
 
-Project Overview
+Project Overview :
 
 Car Price Prediction is a web application that predicts car selling prices based on various car features such as year, present price, kilometers driven, fuel type, seller type, transmission, and owner history. 
 The app uses a Machine Learning model trained on real car sales data to generate accurate price predictions.
 This project demonstrates end-to-end ML deployment with a Flask backend and a scalable cloud deployment on Render.
 
-Features
+Features :
 
 Predict car prices instantly by filling a simple form
 
@@ -25,7 +25,7 @@ Preprocessing pipeline with StandardScaler and OneHotEncoder
 Deployed on Render with Gunicorn WSGI server
 
 
-Backend & ML
+Backend & ML :
 
 Framework: Flask
 Machine Learning: scikit-learn
@@ -33,16 +33,16 @@ Data Processing: pandas, numpy
 Model Persistence: joblib
 WSGI Server: Gunicorn
 
-Frontend
+Frontend :
 
 HTML5 with responsive design
 CSS3 for styling
 
-Deployment
+Deployment :
 
 Platform: Render
 
-Usage
+Usage :
 
 Access the web application
 Fill in the car details:
@@ -58,12 +58,12 @@ Click "Predict Price" to get the estimated selling price
 
 Model Details
 
-Algorithm
+Algorithm :
 
 Random Forest Regressor with optimized hyperparameters
 R² Score: ~0.85 (on test data)
 
-Preprocessing
+Preprocessing :
 
 Numerical Features: StandardScaler (Year, Present_Price, Kms_Driven)
 Categorical Features: OneHotEncoder (Fuel_Type, Seller_Type, Transmission, Owner)
